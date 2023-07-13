@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Sophiagg';
+    src: url(../Font/norma300.woff);
+}
+body{
+    background-image: url(../Background.jpg);
+    color: white;
+    font-family: Sophiagg;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 50px;
+    margin: 0 141px;
+
+
+
+}
+.logo img{
+    width: 331px;
+    height: 149px;
+}
+
+.login{
+    font-family: Mason Sans OT,serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 8px 0;
+    line-height: 40px;
+    text-align: center;
+
+}
+.p{
+    margin: 0 0 12px;
+    font-size: 12px;
+    
+
+}
+.transparente{
+    background-color: #1c1e28;
+    padding: 18px 20px 14px;
+    border-radius: 3px;
+    width: 100px;
+    color: white;
+
+
+    
+}
+.link a{
+    color: #6b63b5 ;
+    font-size: 14px;
+    font-family: Sofia Pro,Helvetica,sans-serif;
+
+}
+.boton{
+    margin-top: 20px;
+    height: 48px;
+    font-size: 14px;
+    width: 100%;
+    background-color: #6b63b5;
+    color: #fff;
+    border-radius: 30px
+}
+.Dos{
+    font-size: 18px !important;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario input, .formulario label{
+    width: 50%;
+}

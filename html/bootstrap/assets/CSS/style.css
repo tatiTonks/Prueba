@@ -1,0 +1,7 @@
+:root{
+    --Prime:#00050d
+
+}
+body{
+    background-color: var(--Prime);
+}

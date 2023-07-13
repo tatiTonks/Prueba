@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap);
+*{ font-family: fantasy;
+background: #fff;
+}
+.reparticion,.cajaForm {
+    display: flex;
+}
+
+.cajaForm{
+display: flex;
+
+
+}
+.titulo {}
+
+form{
+    background: rebeccapurple;
+}
+h1{
+    font-size: 24px;
+    margin-top: 50px;
+    line-height: 28px;
+    }
+.logofacebook {
+    height: 70px;
+    margin: -20px;
+}
